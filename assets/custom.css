@@ -1,21 +1,28 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #1C2230;
     color: white;
+    margin: 0px;
+    background-color: #181E2A
 }
-.started{
-    
+#menu {
+    background-color: #1C2230;
 }
+
 .logo {
     padding: 30px;
     margin-left: 20px;
     width: 40%;
 }
+
 #menu li {
     margin: 20px;
     padding:30px;
     display: inline;
     float: right;
+}
+
+#containerA{
+    background-color: #1C2230;
 }
 #img-intro {
     text-align: center;
@@ -37,10 +44,8 @@ body {
     height: 50px;
     width: 220px;
     border-radius: 20px;
+    border: none;
     font-size: 1em;
-}
-.attributes {
-    background-color: #181E2A ;
 }
 
 #img-acess-anywhere {
@@ -89,4 +94,241 @@ body {
 }
 #img-anyfile p {
     font-size: 10px;
+}
+
+#img-productive {
+    position: absolute ;
+    top: 1700px;
+    left: 100px;
+}
+#text-productive {
+    position: absolute ;
+    top: 1800px;
+    left: 750px;
+    right: 30px;
+    font-size: 14px;
+}
+a {
+    color: #48B7D3;
+}
+#text-productive h3 {
+    font-size: 30px;
+}
+#ContainerD {
+    height: 600px;
+    position: absolute;
+    top: 2300px;
+    right: 30px;
+    left: 30px;
+}
+#ContainerD img {
+    position: absolute;
+    left: 90px;
+}
+.brief-patel {
+    height: 140px;
+    width: 300px;
+    background-color: #21293C ;
+    padding: 20px;
+    position: absolute;
+    left: 100px;
+    top: 35px;
+}
+.brief-patel p {
+    text-align: left;
+    color: white;
+    font-size: 12px;
+
+}
+#patel img {
+    border-radius: 50%;
+    width: 20px;
+    float: left;
+}
+#patel h4 {
+    font-size: 9px;
+
+}
+#patel p {
+    font-size: 7px;
+}
+
+
+#bruce img {
+    border-radius: 50%;
+    width: 20px;
+}
+#bruce h4 {
+    font-size: 9px;
+
+}
+#bruce p {
+    font-size: 7px;
+}
+.brief-bruce {
+    height: 140px;
+    width: 300px;
+    background-color: #21293C ;
+    padding: 20px;
+    position: absolute;
+    left: 460px;
+    top: 35px;
+}
+.brief-bruce p {
+    text-align: left;
+    color: white;
+    font-size: 12px;
+}
+
+#iva img {
+    border-radius: 50%;
+    width: 20px;
+}
+#iva h4 {
+    font-size: 9px;
+
+}
+#iva p {
+    font-size: 7px;
+}
+.brief-iva {
+    height: 140px;
+    width: 300px;
+    background-color: #21293C ;
+    padding: 20px;
+    position: absolute;
+    left: 820px;
+    top: 35px;
+}
+.brief-iva p {
+    text-align: left;
+    color: white;
+    font-size: 12px;
+}
+
+
+#ContainerE h3 {
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.forms-contact {
+    text-align: center;
+    font-size: 12px;
+    background-color: #1C2230;
+    padding: 5px;
+    width: 700px;
+    height: 220px;
+    position: relative;
+    top: 1600px;
+    left: 300px;
+    right: 200px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4AC1D7;
+    color: #ffff;
+    height: 43px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    font-style: bold;
+}
+
+input[type="email"] {
+    height: 40px;
+    width: 400px;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    font-style: bold;
+    margin-right: 15px;
+    padding-left: 10px;
+
+}
+footer {
+    background-color: #0C1524 ;
+    padding-top: 150px;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 2900px;
+    float: left;
+}
+
+footer .logo {
+    margin-left: 120px;
+    height: 30px;
+    width: 200px;
+    
+}
+
+footer img {
+    width: 80%;
+}
+
+.location {
+    height: 80px;
+    width: 15px;
+    position: absolute;
+    left: 145px;
+    top: 251px;
+}
+.text-location {
+    height: 100px;
+    width: 310px;
+    position: absolute;
+    left: 170px;
+    top: 235px;
+    font-size: 13px;
+    margin-top: 0;
+}
+.contact  {
+    position: absolute;
+    left: 40em;
+    top: 225px;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.menu-footer-left{
+    font-size: 13px;
+    position: absolute;
+    left: 60em;
+    top: 235px;
+    width: 100px;
+    height: 100px;
+}
+.menu-footer-left td {
+    padding: 10px;
+}
+
+.menu-footer-right{
+    font-size: 13px;
+    position: absolute;
+    left: 70em;
+    top: 235px;
+    width: 100px;
+    height: 100px;
+}
+
+.menu-footer-right td {
+    padding: 10px;
+}
+
+.social {
+    position: absolute;
+    left: 70em;
+    top: 215px;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+
+.social td {
+    padding: 5px;
 }
