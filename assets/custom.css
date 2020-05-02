@@ -23,6 +23,8 @@ body {
 
 #containerA{
     background-color: #1C2230;
+    margin: 0 auto;
+    width: 100%
 }
 #img-intro {
     text-align: center;
